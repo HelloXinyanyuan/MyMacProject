@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                     final String resultStr = baos.toString();
                     Log.d(TAG, "run() called with: " + baos.toString());
-
                     tvResult.post(
                             new Runnable() {
                                 @Override

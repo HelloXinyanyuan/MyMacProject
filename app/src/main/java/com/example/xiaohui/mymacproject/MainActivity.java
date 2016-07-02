@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final TextView tvResult =
                 (TextView) findViewById(R.id.tv_hello);
+        Log.d(TAG, "onCreate() called with: " + "savedInstanceState = [" + savedInstanceState + "]Hello github ssh");
         new Thread() {
             @Override
             public void run() {
